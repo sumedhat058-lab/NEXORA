@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#080a12">
 <title>NEXORA — One World. One Workspace.</title>
+<meta name="description" content="NEXORA is a mobile-friendly digital workspace with practical tools, notes, tasks and learning helpers.">
 <style>
 :root{--bg:#080a12;--panel:#111522;--panel2:#151a2a;--line:#272d43;--muted:#9aa5bd;--text:#f5f7ff;--violet:#a18aff;--cyan:#65e9e0;--pink:#f08dca;--good:#7be6ad}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 75% -10%,#35205d 0,transparent 35%),radial-gradient(ellipse at 0% 45%,#102d45 0,transparent 30%),var(--bg);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);min-height:100vh}button,input,textarea,select{font:inherit}button{cursor:pointer}.app{max-width:1250px;margin:auto;padding:18px 16px 60px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:25px}.brand{display:flex;align-items:center;gap:10px;font-weight:950;letter-spacing:.15em}.logo{width:38px;height:38px;border-radius:13px;background:linear-gradient(135deg,var(--violet),var(--cyan));display:grid;place-items:center;color:#080a12;font-weight:1000;box-shadow:0 0 28px #8e7bff45}.brand small{display:block;letter-spacing:.12em;color:var(--muted);font-size:.62rem;margin-top:3px}.top-actions{display:flex;gap:8px;align-items:center}.chip,.btn,.navbtn{border:1px solid var(--line);background:#151a2a;color:var(--text);border-radius:12px;padding:10px 13px}.chip{font-size:.78rem;color:#d9d3ff;border-color:#4c4178}.btn.primary{border:0;color:#080a12;background:linear-gradient(100deg,var(--violet),var(--cyan));font-weight:850}.btn.ghost{background:transparent}.hero{position:relative;overflow:hidden;border:1px solid #373052;border-radius:28px;padding:clamp(24px,5vw,54px);background:linear-gradient(115deg,#17172bdf,#111827e8 65%,#12252ce8);margin-bottom:20px}.hero:after{content:"";position:absolute;width:250px;height:250px;border-radius:50%;background:linear-gradient(135deg,#aa8bff70,#62ece250);filter:blur(20px);right:-80px;top:-110px;pointer-events:none}.eyebrow{color:var(--cyan);font-size:.72rem;letter-spacing:.2em;font-weight:850;text-transform:uppercase}.hero h1{font-size:clamp(2.25rem,7vw,4.7rem);line-height:1.02;letter-spacing:-.055em;margin:14px 0;max-width:780px}.gradient{background:linear-gradient(95deg,#fff,#bbaaff 45%,#71f2e8);color:transparent;background-clip:text;-webkit-background-clip:text}.hero p{color:var(--muted);max-width:650px;line-height:1.7;margin-bottom:22px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap}.quickstats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:25px}.stat{background:#111522d9;border:1px solid var(--line);border-radius:17px;padding:16px}.stat strong{font-size:1.2rem;display:block}.stat span{font-size:.78rem;color:var(--muted)}.layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:18px}.sidebar{border:1px solid var(--line);background:#0f1320d9;border-radius:20px;padding:12px;height:max-content;position:sticky;top:12px}.side-label{font-size:.67rem;color:#7e8aa5;letter-spacing:.16em;padding:10px 10px 8px}.navbtn{display:flex;width:100%;align-items:center;gap:11px;text-align:left;margin:3px 0;border-color:transparent;background:transparent;color:#b8c0d4}.navbtn.active,.navbtn:hover{background:#22213a;border-color:#403865;color:white}.navbtn .ico{width:25px;text-align:center}.side-note{font-size:.75rem;color:var(--muted);line-height:1.55;padding:13px 10px;border-top:1px solid var(--line);margin-top:10px}.content{min-width:0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:4px 0 15px}.section-head h2{margin:0;font-size:1.35rem}.section-head p{margin:6px 0 0;color:var(--muted);font-size:.85rem;line-height:1.5}.search{width:100%;padding:13px 15px;border-radius:13px;background:#101522;border:1px solid var(--line);color:white;margin-bottom:15px;outline:none}.search:focus,input:focus,textarea:focus,select:focus{border-color:#8876e8;outline:1px solid #8876e844}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.tool-card{border:1px solid var(--line);background:linear-gradient(150deg,#161b2c,#101420);border-radius:18px;padding:17px;min-height:155px;display:flex;flex-direction:column;align-items:flex-start;transition:transform .18s,border-color .18s}.tool-card:hover{transform:translateY(-3px);border-color:#7668b8}.tool-icon{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:#292447;font-size:1.2rem;margin-bottom:13px}.tool-card h3{margin:0 0 7px;font-size:.98rem}.tool-card p{margin:0;color:var(--muted);font-size:.8rem;line-height:1.5}.tool-card button{margin-top:auto;padding:10px 0 0;border:0;background:none;color:var(--cyan);font-weight:800;font-size:.8rem}.panel{border:1px solid var(--line);background:linear-gradient(150deg,#151a2b,#0f1320);border-radius:20px;padding:20px;margin-bottom:14px}.panel h3{margin:0 0 7px}.panel p{color:var(--muted);line-height:1.6;font-size:.88rem}.formgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.field{display:flex;flex-direction:column;gap:7px;margin:12px 0}.field label{font-size:.8rem;color:#b9c2d8}.field input,.field textarea,.field select{width:100%;padding:12px 13px;border:1px solid var(--line);background:#090d17;color:white;border-radius:12px;resize:vertical}.field textarea{min-height:110px}.output{white-space:pre-wrap;overflow-wrap:anywhere;background:#090d17;border:1px solid var(--line);border-radius:12px;padding:13px;min-height:48px;color:#dce5ff;line-height:1.6}.rowbtns{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.mini{font-size:.82rem;padding:9px 12px}.muted{color:var(--muted)}.pricegrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.pricecard{border:1px solid var(--line);border-radius:18px;padding:18px;background:#111522;display:flex;flex-direction:column}.pricecard.featured{border-color:#8c79e6;box-shadow:0 0 25px #8c79e619}.pricecard h3{margin:8px 0}.price{font-size:1.9rem;font-weight:950}.pricecard .period{font-size:.8rem;color:var(--muted)}.pricecard ul{padding-left:18px;color:#c3cbe0;font-size:.83rem;line-height:1.9}.pricecard button{margin-top:auto}.badge{font-size:.68rem;letter-spacing:.12em;color:var(--cyan);font-weight:850}.notice{border:1px solid #514579;background:#211c39;border-radius:13px;padding:13px;color:#d7d0ff;font-size:.82rem;line-height:1.55;margin:12px 0}.empty{padding:30px;text-align:center;border:1px dashed var(--line);border-radius:16px;color:var(--muted)}.footer{margin:28px 0 0;text-align:center;color:#77839d;font-size:.75rem;line-height:1.7}.hidden{display:none!important}.toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);max-width:calc(100% - 30px);background:#f6f4ff;color:#111526;padding:12px 16px;border-radius:12px;box-shadow:0 8px 30px #0008;display:none;z-index:9;font-size:.9rem}
@@ -71,6 +72,9 @@
       </div>
       <div class="panel"><div class="badge">SECURITY UTILITY</div><h3>Random password generator</h3><p>Generated locally in this browser. Do not share passwords with anyone.</p><div class="formgrid"><div class="field"><label for="passLength">Length</label><select id="passLength"><option>12</option><option>16</option><option selected>20</option><option>24</option><option>32</option></select></div><div class="field"><label for="passMode">Character set</label><select id="passMode"><option value="mixed">Letters, numbers & symbols</option><option value="alnum">Letters & numbers</option><option value="hex">Hexadecimal</option></select></div></div><button class="btn primary" id="makePassword">Generate password</button><div class="field"><label>Generated password</label><div class="output" id="passwordOut">Tap Generate password to create one.</div><div class="rowbtns"><button class="btn mini" data-copy="passwordOut">Copy password</button></div></div></div>
       <div class="panel"><div class="badge">QUICK CALCULATOR</div><h3>Basic calculator</h3><p>Enter a simple arithmetic expression. Use numbers and + − * / parentheses only.</p><div class="field"><label for="calcInput">Expression</label><input id="calcInput" placeholder="Example: (1250 + 330) * 2"></div><button class="btn primary" id="calculate">Calculate</button><div class="field"><label>Result</label><div class="output" id="calcOut">Your result will appear here.</div></div></div>
+      <div class="panel"><div class="badge">DATA TOOL</div><h3>JSON formatter & validator</h3><p>Paste JSON to check whether it is valid and format it neatly.</p><div class="field"><label for="jsonInput">JSON input</label><textarea id="jsonInput" placeholder='{"name":"NEXORA","active":true}'></textarea></div><div class="rowbtns"><button class="btn primary" id="formatJson">Format JSON</button><button class="btn mini" id="minifyJson">Minify JSON</button><button class="btn mini" id="clearJson">Clear</button></div><div class="field"><label>Result</label><div class="output" id="jsonOut">Your formatted JSON will appear here.</div><div class="rowbtns"><button class="btn mini" data-copy="jsonOut">Copy result</button></div></div></div>
+      <div class="panel"><div class="badge">ENCODER TOOL</div><h3>Base64 text encoder / decoder</h3><p>Useful for learning and simple text conversion. Do not use Base64 to protect passwords or secrets.</p><div class="field"><label for="baseInput">Text or Base64 input</label><textarea id="baseInput" placeholder="Enter text here..."></textarea></div><div class="rowbtns"><button class="btn primary" id="encodeBase">Encode to Base64</button><button class="btn mini" id="decodeBase">Decode Base64</button></div><div class="field"><label>Result</label><div class="output" id="baseOut">Your result will appear here.</div><div class="rowbtns"><button class="btn mini" data-copy="baseOut">Copy result</button></div></div></div>
+      <div class="panel"><div class="badge">UNIT CONVERTER</div><h3>Length converter</h3><div class="formgrid"><div class="field"><label for="unitValue">Value</label><input id="unitValue" type="number" value="1" step="any"></div><div class="field"><label for="unitFrom">Convert from</label><select id="unitFrom"><option value="mm">Millimetres</option><option value="cm">Centimetres</option><option value="m" selected>Metres</option><option value="km">Kilometres</option><option value="in">Inches</option><option value="ft">Feet</option><option value="mi">Miles</option></select></div><div class="field"><label for="unitTo">Convert to</label><select id="unitTo"><option value="mm">Millimetres</option><option value="cm">Centimetres</option><option value="m">Metres</option><option value="km" selected>Kilometres</option><option value="in">Inches</option><option value="ft">Feet</option><option value="mi">Miles</option></select></div></div><button class="btn primary" id="convertUnit">Convert</button><div class="field"><label>Result</label><div class="output" id="unitOut">1 metre = 0.001 kilometres</div></div></div>
     </section>
     <section id="page-creative" class="page hidden">
       <div class="section-head"><div><h2>Creative Studio</h2><p>Start creating with a little structure. AI image generation is not connected yet.</p></div></div>
@@ -84,7 +88,8 @@
       <div class="section-head"><div><h2>My Workspace</h2><p>Notes and tasks are saved in this browser on this device.</p></div></div>
       <div class="panel"><div class="badge">QUICK NOTES</div><h3>Save an idea</h3><div class="field"><label for="noteTitle">Title</label><input id="noteTitle" placeholder="Give your note a title"></div><div class="field"><label for="noteBody">Note</label><textarea id="noteBody" placeholder="Write down your idea..."></textarea></div><button class="btn primary" id="saveNote">Save note</button><div class="field"><label>Saved notes</label><div id="notesList" class="output">No notes yet.</div></div></div>
       <div class="panel"><div class="badge">TASK LIST</div><h3>Keep moving forward</h3><div class="field"><label for="taskInput">New task</label><input id="taskInput" placeholder="What do you need to do?"></div><button class="btn primary" id="addTask">Add task</button><div class="field"><label>Your tasks</label><div id="tasksList" class="output">No tasks yet.</div></div></div>
-      <div class="notice">Notes and tasks currently stay in this browser only. They do not sync to another device or an online account.</div>
+      <div class="panel"><div class="badge">BACKUP & RESTORE</div><h3>Keep a copy of your workspace</h3><p>Export your notes and tasks to a JSON file, or restore a backup on this device. Keep backup files private if they contain personal information.</p><div class="rowbtns"><button class="btn primary" id="exportWorkspace">Export backup</button><button class="btn mini" id="chooseBackup">Import backup</button><input id="backupFile" type="file" accept=".json,application/json" class="hidden"></div></div>
+      <div class="notice">Notes and tasks currently stay in this browser only. They do not sync to another device or an online account. Export a backup before clearing browser data.</div>
     </section>
     <section id="page-premium" class="page hidden">
       <div class="section-head"><div><h2>Choose your power level</h2><p>Simple, transparent plans. Your trial will not automatically charge you.</p></div></div>
@@ -99,7 +104,7 @@
     </section>
   </main>
 </div>
-<footer class="footer">NEXORA · Version 1.0 Prototype<br>Designed for mobile-first access · More features will arrive in future versions.</footer>
+<footer class="footer">NEXORA · Version 1.1 Prototype<br>Designed for mobile-first access · More features will arrive in future versions.</footer>
 </div>
 <div class="toast" id="toast" role="status"></div>
 <script>
@@ -135,6 +140,55 @@ function renderTrial(){const t=getTrial();const now=Date.now();if(t&&t.startedAt
 $('startTrial').addEventListener('click',()=>{if(getTrial()){toast('Trial has already been used in this browser.');return}localStorage.setItem('nexora_trial_v1',JSON.stringify({startedAt:Date.now()}));renderTrial();toast('12-hour demo trial started. No payment is taken.')});
 document.querySelectorAll('[data-plan]').forEach(b=>b.addEventListener('click',()=>toast(b.dataset.plan+' selected. Payments are not connected yet.')));
 renderNotes();renderTasks();renderTrial();setInterval(renderTrial,60000);
+
+
+// V1.1 tools: JSON formatter, Unicode-safe Base64, unit conversion, workspace backup.
+function setOutput(id, value){$(id).textContent=value}
+function processJson(minify=false){
+  const raw=$('jsonInput').value.trim();
+  if(!raw){setOutput('jsonOut','කරුණාකර JSON එකක් ඇතුළත් කරන්න.');return}
+  try{const parsed=JSON.parse(raw);setOutput('jsonOut',JSON.stringify(parsed,null,minify?0:2))}
+  catch(err){setOutput('jsonOut','Invalid JSON: '+err.message)}
+}
+$('formatJson').addEventListener('click',()=>processJson(false));
+$('minifyJson').addEventListener('click',()=>processJson(true));
+$('clearJson').addEventListener('click',()=>{$('jsonInput').value='';setOutput('jsonOut','Your formatted JSON will appear here.')});
+$('encodeBase').addEventListener('click',()=>{
+  const value=$('baseInput').value;
+  try{const bytes=new TextEncoder().encode(value);let binary='';bytes.forEach(b=>binary+=String.fromCharCode(b));setOutput('baseOut',btoa(binary))}
+  catch(e){setOutput('baseOut','Encoding failed: '+e.message)}
+});
+$('decodeBase').addEventListener('click',()=>{
+  try{const binary=atob($('baseInput').value.trim());const bytes=Uint8Array.from(binary,c=>c.charCodeAt(0));setOutput('baseOut',new TextDecoder('utf-8',{fatal:true}).decode(bytes))}
+  catch(e){setOutput('baseOut','Invalid Base64 text or unsupported characters.')}
+});
+const lengthFactors={mm:0.001,cm:0.01,m:1,km:1000,in:0.0254,ft:0.3048,mi:1609.344};
+const lengthNames={mm:'millimetres',cm:'centimetres',m:'metres',km:'kilometres',in:'inches',ft:'feet',mi:'miles'};
+function convertLength(){
+  const value=Number($('unitValue').value),from=$('unitFrom').value,to=$('unitTo').value;
+  if(!Number.isFinite(value)){setOutput('unitOut','Please enter a valid number.');return}
+  const result=value*lengthFactors[from]/lengthFactors[to];
+  setOutput('unitOut',`${value} ${lengthNames[from]} = ${Number(result.toPrecision(10))} ${lengthNames[to]}`);
+}
+$('convertUnit').addEventListener('click',convertLength);
+$('chooseBackup').addEventListener('click',()=>$('backupFile').click());
+$('exportWorkspace').addEventListener('click',()=>{
+  const data={app:'NEXORA',version:1,exportedAt:new Date().toISOString(),notes:readList('nexora_notes_v1'),tasks:readList('nexora_tasks_v1')};
+  const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+  const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='nexora-workspace-backup.json';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);toast('Backup exported. Keep the file somewhere safe.');
+});
+$('backupFile').addEventListener('change',async e=>{
+  const file=e.target.files&&e.target.files[0];if(!file)return;
+  try{
+    const data=JSON.parse(await file.text());
+    if(!data||!Array.isArray(data.notes)||!Array.isArray(data.tasks))throw new Error('This does not look like a NEXORA workspace backup.');
+    if(!confirm('Import this backup? Current notes and tasks will be replaced.')){e.target.value='';return}
+    if(!writeList('nexora_notes_v1',data.notes)||!writeList('nexora_tasks_v1',data.tasks))throw new Error('Could not save data in this browser.');
+    renderNotes();renderTasks();toast('Workspace restored successfully.');
+  }catch(err){toast('Import failed: '+err.message)}
+  e.target.value='';
+});
+
 </script>
 </body>
 </html>
